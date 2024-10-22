@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: #dffbfb;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.main-frame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.main {
+  max-width: 600px;
+  height: 100%;
+  width: 100%;
+}
+.input-message {
+  width: 95%;
+}
+.bottom-ui {
+  height: 70px;
+  border-radius: 10px;
+}
+.message-list {
+  min-height: 70px;
+  border: #bde5e5 solid 1px;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.small {
+  font-size: 10px;
+}
+.message-info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bde5e5;
+}
+#face-icon {
+  height: 21px;
+  transform: translateY(6px);
+}
